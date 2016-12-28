@@ -7,7 +7,8 @@ I was searching other tools to do this job but I didn't found it, so after analy
 
 ## Notice (From Eric)
 This will cause **IP ban** from twitter (about 3 days), it is proper to set the timeout in your code.
-I have did one, take reference [here](https://github.com/yenhao/Tweet-process/blob/master/twitter%20crawler/get_all_tweets.py).d
+For twitter crawler, see [here](https://github.com/yenhao/Tweet-process/blob/master/twitter%20crawler/get_all_tweets.py).
+
 ## Components
 - **Tweet:** Model class to give some informations about a specific tweet.
   - id (str)
