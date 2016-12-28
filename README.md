@@ -5,6 +5,9 @@ A project written in Python to get old tweets, it bypass some limitations of Twi
 Twitter Official API has the bother limitation of time constraints, you can't get older tweets than a week. Some tools provide access to older tweets but in the most of them you have to spend some money before.
 I was searching other tools to do this job but I didn't found it, so after analyze how Twitter Search through browser works I understand its flow. Basically when you enter on Twitter page a scroll loader starts, if you scroll down you start to get more and more tweets, all through calls to a JSON provider. After mimic we get the best advantage of Twitter Search on browsers, it can search the deepest oldest tweets.
 
+## Notice (From Eric)
+This will cause **IP ban** from twitter (about 3 days), it is proper to set the timeout in your code.
+I have did one, take reference [here](https://github.com/yenhao/Tweet-process/blob/master/twitter%20crawler/get_all_tweets.py).d
 ## Components
 - **Tweet:** Model class to give some informations about a specific tweet.
   - id (str)
